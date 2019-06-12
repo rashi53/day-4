@@ -1,0 +1,7 @@
+fo=open(r"c:\python\student.txt","r")
+str1=fo.read()
+fo.close()
+f1=open(r"c:\python\student1.txt","w")
+f1.write(str1)
+f1.close()
+print("work done")
